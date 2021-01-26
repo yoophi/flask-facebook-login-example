@@ -10,7 +10,15 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = [
+    'Click>=7.0',
+    'requests==2.21.0',
+    'Flask==1.1.2',
+    'Flask-Login==0.4.1',
+    'Flask-Sqlalchemy==2.4.4',
+    'SQLAlchemy==1.3.22',
+    'facebook-sdk==3.1.0',
+]
 
 setup_requirements = ['pytest-runner', ]
 
@@ -34,16 +42,16 @@ setup(
     description="Flask Google Login Sample",
     entry_points={
         'console_scripts': [
-            'app=app.cli:main',
+            'myapp=myapp.cli:main',
         ],
     },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='app',
-    name='app',
-    packages=find_packages(include=['app', 'app.*']),
+    keywords='myapp',
+    name='myapp',
+    packages=find_packages(include=['myapp', 'myapp.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,

@@ -3,30 +3,26 @@ Flask Googlel Login Sample
 ==========================
 
 
-.. image:: https://img.shields.io/pypi/v/app.svg
-        :target: https://pypi.python.org/pypi/app
-
-.. image:: https://img.shields.io/travis/yoophi/app.svg
-        :target: https://travis-ci.com/yoophi/app
-
-.. image:: https://readthedocs.org/projects/app/badge/?version=latest
-        :target: https://app.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-
-
-
 Flask Google Login Sample
 
 
 * Free software: MIT license
 * Documentation: https://app.readthedocs.io.
+* Real Python Link: https://realpython.com/flask-google-login/
 
 
 Features
 --------
 
 * TODO
+
+
+Links
+-----
+
+-  `Google developers credentials
+   page <https://console.developers.google.com/apis/credentials>`__
+
 
 Credits
 -------
