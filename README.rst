@@ -1,9 +1,9 @@
 ==========================
-Flask Googlel Login Sample
+Flask Facebook Login Sample
 ==========================
 
 
-Flask Google Login Sample
+Flask Facebook Login Sample
 
 
 * Free software: MIT license
@@ -20,8 +20,8 @@ Features
 Links
 -----
 
--  `Google developers credentials
-   page <https://console.developers.google.com/apis/credentials>`__
+-  `Facebook developers page
+   page <http://developers.facebook.com/>`__
 
 
 Credits
